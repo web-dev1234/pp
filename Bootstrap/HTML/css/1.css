@@ -1,0 +1,28 @@
+header{
+  background: #B3B3B3
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 200%
+}
+a{
+  font-size: 150%;
+  font-family: verdana;
+  color:#00ffff;
+  background: #00007f
+}
+h2{
+  font-family:Times new roman;
+  text-transform: uppercase;
+  font-size: 150%;
+  color:#ffff00
+}
+section{
+  background:#B3B3B3;
+  font-size: 100%
+}
+img{
+  display: none;
+}

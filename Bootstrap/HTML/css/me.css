@@ -1,0 +1,62 @@
+body{
+	background: #b3b3b3;
+}
+header{
+	text-align: center;
+	margin: 2%;
+	padding: 2%%;
+	background:green;
+	border-radius: 20px;
+}
+h1{
+	font-size:200%;
+	font-family: comic sans ms;
+	color:orange;
+
+}
+nav a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	font-size: 150%;
+	border-radius:30px;
+	font-weight:bold;
+	background:pink;
+	width:15%
+}
+nav a:hover{
+	transition-property:width:25*50;
+	background: black
+}
+.active{
+	background: white
+}
+.left{
+	clear: left;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0 auto;
+	border: 4px dotted
+}
+img{
+	display:inline-block;
+    height: 250px;
+    width: 189px;
+    border-style: outset black;
+    margin: 0 auto;
+    float: left;
+    padding:10%;
+    
+    
+
+}
+section{
+	float: right;
+}
+footer{
+	background: yellow
+}
+h2{
+	
+}

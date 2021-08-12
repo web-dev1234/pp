@@ -1,0 +1,150 @@
+header{
+    background-color:#fa744f;
+    border-radius:20px;
+    padding: 20px;
+    background-image:url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+}
+
+h1{
+    color: #ffd082;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Serif;
+    font-size: 50px;
+}
+
+section{
+  
+    box-sizing: border-box;
+    display: inline-block;
+    background-color:#fa744f;
+    overflow: auto;
+    height: 700px;
+    
+}
+
+p{
+    font-size:25px;
+}
+ul{
+    font-size: 25px;
+    list-style-type: upper-alpha;
+}
+
+.active{
+    background-color: #88e1f2 !important;
+    color: #21243d !important;
+}
+
+.left{
+    box-sizing: border-box;
+    display: inline-block;
+    clear: left;
+    background: #fa744f;
+    width:23%;
+    height: 720px;
+    border: 5px double #024249;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.right{
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+    border-radius: 0%;
+    margin: 10px 4px 4px -1px;
+    background-color: #deba52 ;
+    width: 76%;
+  padding: 20px;
+}
+
+body{
+    margin: 1.5%;
+    padding: 12px;
+    background-color: #16817a
+}
+
+h2{
+    color:#024249;
+    background-color: #f79071;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+
+
+nav a{
+    display: inline-block;
+    width: 22%;
+    height: 25px;
+    background-color: #bfbfbf ;
+    color: #0000ff;
+    font-size: 25px;
+    text-align: center;
+    border-radius:18px;
+    margin: 9px;
+    padding: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:link{
+    color: #95389e;
+}
+nav a:visited{
+    color:#ffffff;
+    background-color:#ff7c7c;
+}
+nav a:hover, nav a:active{
+    color:#100303 !important;
+    background-color: #ff7c7c
+}
+nav a:focus{
+    color:#defb25;
+}
+
+
+img{ 
+    display: block;
+    border: 3px solid #000000;
+    margin: 0 auto;
+    clear:both;
+    width: 85%;
+    height: 185px;
+    margin-top: 37px;
+    margin-bottom:35px;
+        
+}
+table,th,td{
+    border:1px solid #852296;
+}
+table{
+    margin: 0 auto;
+    table-layout: auto;
+    width: 700px;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height:150%
+}
+th{
+    border-top-left-radius: 9px;
+    border-top-right-radius:9px;
+    background:linear-gradient(#de857d,#ffffff);
+}
+td{
+    color:#000000;
+
+}
+tr,td{
+    background-color: #bde578;
+}
+tr{
+    opacity: 0.6
+}
+tr:hover{
+    opacity: 1
+}
+th:first-child,td:first-child{
+    text-align: left;
+}
